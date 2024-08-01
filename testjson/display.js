@@ -127,8 +127,3 @@ function displayPollution() {
 
     pollutionReport.innerHTML = `${aqiReport}<br>Components: ${JSON.stringify(owmPollution.json.list[0].components)}`;
 }
-function (){
-    if(owmWeather.json.main.temp_max>70){
-        document.getElementById
-    }
-}
